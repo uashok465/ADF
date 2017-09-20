@@ -10,7 +10,7 @@
         <af:pageTemplate viewId="/oracle/templates/threeColumnTemplate.jspx"
                          id="pt1">
           <f:facet name="center">
-            <af:panelBox text="PanelBox1" id="pb1">
+            <af:panelBox text="Welcome -My Site" id="pb1">
               <f:facet name="toolbar"/>
             </af:panelBox>
           </f:facet>
