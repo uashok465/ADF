@@ -12,6 +12,13 @@
           <f:facet name="center">
             <af:panelBox text="Welcome -My Site" id="pb1">
               <f:facet name="toolbar"/>
+              <af:panelAccordion id="pa1">
+                <af:showDetailItem text="showDetailItem 1" id="sdi1">
+                  <af:panelBox text="PanelBox1" id="pb2">
+                    <f:facet name="toolbar"/>
+                  </af:panelBox>
+                </af:showDetailItem>
+              </af:panelAccordion>
             </af:panelBox>
           </f:facet>
           <f:facet name="header"/>
